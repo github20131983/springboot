@@ -13,5 +13,7 @@
   
   <modules>
   	<module>springboot-RESTfulWebService</module>
+  	<module>springboot-SchedulingTasks</module>
+  	<module>springboot-ConsumingARESTfulWebService</module>
   </modules>
 </project>
