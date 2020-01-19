@@ -7,10 +7,6 @@
   </parent>
   <artifactId>springboot-ConsumingARESTfulWebService</artifactId>
   
-  <properties>
-		<java.version>1.8</java.version>
-	</properties>
-
 	<dependencies>
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
@@ -24,12 +20,4 @@
 		</dependency>
 	</dependencies>
 
-	<build>
-		<plugins>
-			<plugin>
-				<groupId>org.springframework.boot</groupId>
-				<artifactId>spring-boot-maven-plugin</artifactId>
-			</plugin>
-		</plugins>
-	</build>
 </project>

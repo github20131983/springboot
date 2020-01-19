@@ -6,11 +6,6 @@
     <version>0.0.1-SNAPSHOT</version>
   </parent>
   <artifactId>springboot-UploadingFiles</artifactId>
-  
-    <properties>
-        <java.version>1.8</java.version>
-    </properties>
-
 
     <dependencies>
         <dependency>
@@ -29,12 +24,4 @@
         </dependency>
     </dependencies>
 
-    <build>
-        <plugins>
-            <plugin>
-                <groupId>org.springframework.boot</groupId>
-                <artifactId>spring-boot-maven-plugin</artifactId>
-            </plugin>
-        </plugins>
-    </build>
 </project>

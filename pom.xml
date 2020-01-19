@@ -6,31 +6,35 @@
   <packaging>pom</packaging>
   
   <parent>
-        <groupId>org.springframework.boot</groupId>
-        <artifactId>spring-boot-starter-parent</artifactId>
-        <version>2.2.2.RELEASE</version>
+     <groupId>org.springframework.boot</groupId>
+     <artifactId>spring-boot-starter-parent</artifactId>
+     <version>2.2.2.RELEASE</version>
   </parent>
   
+  <properties>
+	 <java.version>1.8</java.version>
+  </properties>
+	
   <modules>
-  	<module>springboot-RESTfulWebService</module>
-  	<module>springboot-SchedulingTasks</module>
-  	<module>springboot-ConsumingARESTfulWebService</module>
-  	<module>springboot-JDBC</module>
-  	<module>springboot-UploadingFiles</module>
+  	 <module>springboot-RESTfulWebService</module>
+  	 <module>springboot-SchedulingTasks</module>
+  	 <module>springboot-ConsumingARESTfulWebService</module>
+  	 <module>springboot-JDBC</module>
+  	 <module>springboot-UploadingFiles</module>
   </modules>
   
-    <repositories>
-        <repository>
-            <id>maven-ali</id>
-            <url>http://maven.aliyun.com/nexus/content/groups/public//</url>
-            <releases>
-                <enabled>true</enabled>
-            </releases>
-            <snapshots>
-                <enabled>true</enabled>
-                <updatePolicy>always</updatePolicy>
-                <checksumPolicy>fail</checksumPolicy>
-            </snapshots>
-   		</repository>
- 	</repositories>
+  <repositories>
+     <repository>
+         <id>maven-ali</id>
+         <url>http://maven.aliyun.com/nexus/content/groups/public//</url>
+         <releases>
+             <enabled>true</enabled>
+         </releases>
+         <snapshots>
+             <enabled>true</enabled>
+             <updatePolicy>always</updatePolicy>
+             <checksumPolicy>fail</checksumPolicy>
+         </snapshots>
+		</repository>
+  </repositories>
 </project>
